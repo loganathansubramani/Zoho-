@@ -1,0 +1,13 @@
+a=[int(val) for val in input().split(".")]
+b=[int(val) for val in input().split(".")]
+z=0
+for i in range(len(max(a,b))):
+    for j in range(len(max(a,b))):
+        if a[i]!=b[j]:
+         z=i 
+if a[z]==b[z]:
+    print("Equal")
+elif a[z]<b[z]:
+    print("Upgraded")
+elif a[z]>b[z]:
+    print("Downgraded")
