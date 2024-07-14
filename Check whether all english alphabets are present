@@ -1,0 +1,9 @@
+def b(a):
+    c=set('abcdefghijklmnopqrstuvwxyz')
+    a1=a.lower()
+    c.issubset(a1)
+a=input()
+if b(a):
+    print("True")
+else:
+    print("False")
